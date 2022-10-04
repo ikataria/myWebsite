@@ -1,36 +1,49 @@
-/* *{
-    margin: 0;
-    padding: 0;
-  } */
   body{
-    font-family:poppins;
+    font-family: "Lucida Console", Cursive, Times;
+    background-color: rgb(65, 65, 65);
   }
   .mainWrapper{
-    width: 1170px;
-    margin: 0 auto;
+    width: auto;
+    /* margin: 0 auto; */
+  }
+  .navigation{
+    height: 60px;
+    /* padding-top: 60px; */
+    /* width: 524px; */
+    margin: 0 40px;
   }
   .logo{
-    width: 20%;
+    width: 25%;
     float: left;
-    padding: 30px 0 0;
-    font-size: 25px;
+    padding-top: 30px;
+    font-size: 35px;
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    color: rgb(11, 207, 187);
   }
   nav{
     width: 75%;
     float: right;
+    padding-top: 40px;
     text-align: right;
-    padding: 30px 0 0;
   }
   nav a{
+    font-size: 25px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
   }
-  .navigation{
-    height: 60px;
+
+  .navSeparator{
+    border: 1.5px solid rgb(204, 215, 215);
+    border-radius: 15px;
+    /* width: auto; */
   }
+
+  .main {
+    margin: 270px 20px 0 20px;
+    /* background-color: rgb(98, 101, 103); */
+  }
+  
   /* .banner-area{
     animation-name: animate;
     animation-duration: 7s;
@@ -38,23 +51,38 @@
     animation-timing-function: ease-in-out;
     height: 100vh;
   } */
-  .text-area{
+  .displayText{
     text-align: center;
-    width: 75%;
-    margin: 0 auto;
+    width: auto;
+    /* margin: 0 auto; */
   }
-  .text-area h2{
-    font-size: 75px;
-    color: rgb(0, 0, 0);
-    margin: 10% 0 0;
+
+  .displayText h2{
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    margin: 10% 0 0 0;
+    /* padding-bottom: 0; */
   }
-  .text-area h3{
-    color: rgb(0, 0, 0);
+  
+  .displayText h3{
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     margin: 0 0 15px;
     font-size: 35px;
   }
-  .text-area a{
+
+  .displayText a{
+    display: inline-block;
+    margin: 50px 0 10px 0;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    background: #f6f6f6;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  /* .displayText a{
     text-decoration: none;
     background: #262626;
     color: rgb(0, 0, 0);
@@ -63,15 +91,15 @@
     display: inline-block;
     margin-top: 5%;
     border-radius: 50px;
-  }
-  .text-area p{
+  } */
+  /* .displayText p{
     font-size: 18px;
     color: rgb(0, 0, 0);
     width: 70%;
     margin: 0 auto;
     line-height:1.9;
-  }
-  @keyframes animate {
+  } */
+  /* @keyframes animate {
     0%{
       background: #29306a;
     }
@@ -98,4 +126,4 @@
     float: right;
     width: 650px;
     height: 600px
-  }
+  } */
