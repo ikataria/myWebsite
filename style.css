@@ -1,39 +1,60 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
   body{
     font-family: "Lucida Console", Cursive, Times;
     background-color: rgb(65, 65, 65);
+    
   }
   .mainWrapper{
-    width: auto;
+    /* width: auto; */
+    /* background-color: white; */
     /* margin: 0 auto; */
   }
   .navigation{
+    background-color: rgb(112, 112, 112);
     height: 60px;
-    /* padding-top: 60px; */
-    /* width: 524px; */
-    margin: 0 40px;
+    padding-bottom: 10px;
+    /* width: auto; */
+    /* margin: 0 40px; */
   }
   .logo{
-    width: 25%;
+    /* width: 29%; */
+    /* text-decoration: none; */
     float: left;
-    padding-top: 30px;
-    font-size: 35px;
+    padding: 36px 0 0 10px;
+    margin-left: 50px;
+    /* padding: 36px 0 0 10px;
+    font-size: 2vw;
     font-weight: 700;
+    color: rgb(11, 207, 187); */
+  }
+  .logo a{
+    font-size: 2vw;
+    text-decoration: none;
     color: rgb(11, 207, 187);
+    /* padding: 36px 0 0 10px; */
+    /* float: left; */
+    font-weight: 700;
+    /* margin: 0; */
   }
-  nav{
-    width: 75%;
+  .nav{
+    /* width: 69%; */
     float: right;
-    padding-top: 40px;
+    padding: 40px 10px 0 0;
     text-align: right;
+    margin-right: 50px;
   }
-  nav a{
-    font-size: 25px;
+  .nav a{
+    font-size: 1.5vw;
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 0 20px;
   }
 
   .navSeparator{
+    /* margin: 1% 0; */
     border: 1.5px solid rgb(204, 215, 215);
     border-radius: 15px;
     /* width: auto; */
@@ -116,14 +137,78 @@
       background: #4c9ab6;
     }
   }
-  
-  .aboutContent h2{
-    float: left;
+  */
+
+  /**---- About Page Styling ----**/
+  #aboutBG {
+    /* background-color: rgb(42, 113, 110); */
+  }
+  .aboutContent {
+    /* float: center; */
+    text-align: center;
+    width: 80%;
+    margin: 0 10%;
+    background-color: white;
   }
 
-  .aboutContent img{
-    margin: 10px;
+  .intro {
+    width : 48%;
+    float: left;
+    padding:  2% 2% 0 0;
+  }
+
+  .intro h2{
+    font-size: 1.8vw;
+    margin: 50px 0 20px 0;
+    /* color: ; */
+  }
+
+  .intro p{
+    font-size: 1.3vw;
+  }
+  
+  .aboutImg {
+    width : 48%;
+    float: right;
+    padding:  2% 0 0 2% ;
+  } 
+  .aboutImg img{
+    /* margin: 10px;
     float: right;
     width: 650px;
-    height: 600px
-  } */
+    height: 600px */
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2%;
+  }
+
+  /***** Skills *****/
+  #skillSet{
+    margin: 5% 0 0 10%;
+  }
+
+  #skillSet h2{
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+  }
+
+  #skillSet h3{
+    font-size: 1.5vw;
+    color: #EFC94C;;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 2%;
+    padding-bottom: 3px;
+  }
+
+  #skillSet span{
+    padding: 2px 4px;
+    background: #000000;
+    border-radius: 9px;
+    color: #fff;
+    /* display: inline; */
+    /* text-shadow: 0 0 3px #111c26; */
+  }
